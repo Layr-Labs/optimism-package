@@ -1,6 +1,12 @@
-name: github.com/ethpandaops/optimism-package
+name: github.com/layr-labs/optimism-package
 description: |
   # Optimism Package
   This is a Kurtosis package for deploying an Optimism Rollup
+  This fork is temporary to make the op devnet work. It should always be the same
+  as the feat--alt-da branch we are trying to upstream, except with the package name above
+  changed to layr-labs/optimism-package
+
+  This is to solve this error when running the devnet from op's repo using this fork:
+  2025/02/04 10:32:19 Error: error deploying environment: error deploying kurtosis package: interpretation error: error_message:"Error occurred while validating /kurtosis-data/repositories/layr-labs/optimism-package/kurtosis.yml\n\tCaused by: The package name in kurtosis.yml must match the location it is in. Package name is 'github.com/ethpandaops/optimism-package' and kurtosis.yml is found here: 'github.com/layr-labs/optimism-package'"
 replace:
   github.com/ethpandaops/ethereum-package: github.com/ethpandaops/ethereum-package@4.4.0
