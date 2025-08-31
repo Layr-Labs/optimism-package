@@ -3,7 +3,7 @@ _op_supervisor_launcher = import_module("/src/supervisor/op-supervisor/launcher.
 _input_parser = import_module("/src/package_io/input_parser.star")
 _observability = import_module("/src/observability/observability.star")
 _ethereum_package_constants = import_module(
-    "github.com/ethpandaops/ethereum-package/src/package_io/constants.star"
+    "github.com/ethpandaops/ethereum-package@5.0.1/src/package_io/constants.star"
 )
 
 

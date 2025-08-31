@@ -1,5 +1,5 @@
 _ethereum_package_constants = import_module(
-    "github.com/ethpandaops/ethereum-package/src/package_io/constants.star"
+    "github.com/ethpandaops/ethereum-package@5.0.1/src/package_io/constants.star"
 )
 _net = import_module("/src/util/net.star")
 

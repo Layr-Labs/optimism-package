@@ -10,7 +10,7 @@ utils = import_module("../util.star")
 _filter = import_module("../util/filter.star")
 
 ethereum_package_genesis_constants = import_module(
-    "github.com/ethpandaops/ethereum-package/src/prelaunch_data_generator/genesis_constants/genesis_constants.star"
+    "github.com/ethpandaops/ethereum-package@5.0.1/src/prelaunch_data_generator/genesis_constants/genesis_constants.star"
 )
 
 CANNED_VALUES = {

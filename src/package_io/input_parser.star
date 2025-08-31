@@ -1,5 +1,5 @@
 ethereum_package_input_parser = import_module(
-    "github.com/ethpandaops/ethereum-package/src/package_io/input_parser.star"
+    "github.com/ethpandaops/ethereum-package@5.0.1/src/package_io/input_parser.star"
 )
 
 _batcher_input_parser = import_module("/src/batcher/input_parser.star")
