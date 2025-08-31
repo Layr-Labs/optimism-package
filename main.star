@@ -1,4 +1,4 @@
-ethereum_package = import_module("github.com/ethpandaops/ethereum-package@5.0.1/@5.0.1/main.star")
+ethereum_package = import_module("github.com/ethpandaops/ethereum-package@5.0.1/main.star")
 contract_deployer = import_module("./src/contracts/contract_deployer.star")
 l2_launcher = import_module("./src/l2.star")
 superchain_launcher = import_module("./src/superchain/launcher.star")
@@ -12,7 +12,7 @@ util = import_module("./src/util.star")
 wait_for_sync = import_module("./src/wait/wait_for_sync.star")
 input_parser = import_module("./src/package_io/input_parser.star")
 ethereum_package_static_files = import_module(
-    "github.com/ethpandaops/ethereum-package@5.0.1@5.0.1/src/static_files/static_files.star"
+    "github.com/ethpandaops/ethereum-package@5.0.1/src/static_files/static_files.star"
 )
 
 _registry = import_module("./src/package_io/registry.star")
