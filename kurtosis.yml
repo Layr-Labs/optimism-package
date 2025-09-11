@@ -3,4 +3,4 @@ description: |
   # Optimism Package
   This is a Kurtosis package for deploying an Optimism Rollup
 replace:
-  github.com/ethpandaops/ethereum-package: github.com/ethpandaops/ethereum-package@83830d44823767af65eda7dfe6b26c87c536c4cf
+  github.com/ethpandaops/ethereum-package: github.com/ethpandaops/ethereum-package@47c90f6defb3777e0667984a1eec63f45c8496d2
