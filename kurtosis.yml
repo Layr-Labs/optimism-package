@@ -1,6 +1,6 @@
 name: github.com/Layr-Labs/optimism-package
 description: |
   # Optimism Package
-  This is a Kurtosis package for deploying an Optimism Rollup
+  Thisis a Kurtosis package for deploying an Optimism Rollup
 replace:
   github.com/ethpandaops/ethereum-package: github.com/ethpandaops/ethereum-package@47c90f6defb3777e0667984a1eec63f45c8496d2
